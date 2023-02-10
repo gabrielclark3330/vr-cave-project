@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 5941523}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: Climbable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -447,6 +447,21 @@ MonoBehaviour:
   velocityAverageFrames: 5
   angularVelocityAverageFrames: 11
   estimateOnAwake: 0
+--- !u!114 &525283032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525283021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
 --- !u!1 &570223195
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,7 +573,7 @@ GameObject:
   - component: {fileID: 655113066}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Climbable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -811,6 +826,21 @@ MonoBehaviour:
   velocityAverageFrames: 5
   angularVelocityAverageFrames: 11
   estimateOnAwake: 0
+--- !u!114 &793676478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793676463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
 --- !u!1 &965303578
 GameObject:
   m_ObjectHideFlags: 0
@@ -825,7 +855,7 @@ GameObject:
   - component: {fileID: 965303579}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Climbable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -922,7 +952,7 @@ GameObject:
   - component: {fileID: 1001904618}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Climbable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1014,7 +1044,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: f83ae204500120148a98c0ef54de2641, type: 3}
       propertyPath: m_Name
-      value: IceAxe (1)
+      value: IceAxe L
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f83ae204500120148a98c0ef54de2641, type: 3}
       propertyPath: m_RootOrder
@@ -1071,7 +1101,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: f83ae204500120148a98c0ef54de2641, type: 3}
       propertyPath: m_Name
-      value: IceAxe
+      value: IceAxe R
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f83ae204500120148a98c0ef54de2641, type: 3}
       propertyPath: m_RootOrder
@@ -1230,7 +1260,7 @@ GameObject:
   - component: {fileID: 1469312796}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Climbable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

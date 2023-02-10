@@ -15,7 +15,7 @@ C:/Users/gclark7/CaveExplorer
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-61913
+62441
 Successfully changed project path to: C:/Users/gclark7/CaveExplorer
 C:/Users/gclark7/CaveExplorer
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/gclark7/CaveExplorer
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 109.80 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 115.92 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.7f1 (24e8595d6d43)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -63,93 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008176 seconds.
+Registered in 0.006334 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 89.24 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 88.38 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.694 seconds
+- Completed reload, in  0.646 seconds
 Domain Reload Profiling:
-	ReloadAssembly (695ms)
-		BeginReloadAssembly (85ms)
+	ReloadAssembly (647ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (492ms)
-			LoadAssemblies (81ms)
+		EndReloadAssembly (456ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (100ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (294ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (279ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (89ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (143ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011899 seconds.
+Registered in 0.010940 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\gclark7\CaveExplorer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\gclark7\CaveExplorer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 1.33 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.323 seconds
+- Completed reload, in  1.092 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1324ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (1093ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1062ms)
-			LoadAssemblies (107ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (861ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (329ms)
+			SetupTypeCache (272ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (502ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (393ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (139ms)
-				ProcessInitializeOnLoadAttributes (307ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.42 ms, found 6 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3696 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (111.3 KB). Loaded Objects now: 4153.
-Memory consumption went from 130.8 MB to 130.6 MB.
-Total: 4.218600 ms (FindLiveObjects: 0.467500 ms CreateObjectMapping: 0.344500 ms MarkObjects: 3.273700 ms  DeleteObjects: 0.132000 ms)
+Unloading 30 unused Assets / (111.3 KB). Loaded Objects now: 4161.
+Memory consumption went from 131.2 MB to 131.1 MB.
+Total: 3.677700 ms (FindLiveObjects: 0.370700 ms CreateObjectMapping: 0.210700 ms MarkObjects: 2.976800 ms  DeleteObjects: 0.118600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  colorSpace: 1 -> 0
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
@@ -158,78 +157,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/active-color-space: 03000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1793649.645298 seconds.
-  path: Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportPointer.mat
-  artifactKey: Guid(140bd0e59d9bee94f9f0284c9eef5b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportPointer.mat using Guid(140bd0e59d9bee94f9f0284c9eef5b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d76faac5cf80475982c261c7501e9b9') in 0.141657 seconds 
+  Time since last request: 1794133.381845 seconds.
+  path: Assets/ToolsPack1/HighQuality/IceAxe
+  artifactKey: Guid(183d164c889811e43a12060c1b70e9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToolsPack1/HighQuality/IceAxe using Guid(183d164c889811e43a12060c1b70e9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5abb446c8c58c9c8cb482a81d1b9248f') in 0.008293 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/SteamVR/InteractionSystem/Core/Icons/vr_interaction_system_right_hand.png
-  artifactKey: Guid(1acda2a2584a8fb4683ea56799b27fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Core/Icons/vr_interaction_system_right_hand.png using Guid(1acda2a2584a8fb4683ea56799b27fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd25cfa323069027e4ddb84b9ff9cb80') in 0.038377 seconds 
+  Time since last request: 2.607604 seconds.
+  path: Assets/ToolsPack1/HighQuality/IceAxe/Model
+  artifactKey: Guid(91de386da872c2c42aaf6f1c381cdc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToolsPack1/HighQuality/IceAxe/Model using Guid(91de386da872c2c42aaf6f1c381cdc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1c6e0c9d1ccd586529eb24966f090e') in 0.002331 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012476 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gclark7\CaveExplorer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\gclark7\CaveExplorer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.173 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1174ms)
-		BeginReloadAssembly (156ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (907ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (293ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (409ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (247ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.24 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3671 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (78.9 KB). Loaded Objects now: 4197.
-Memory consumption went from 133.9 MB to 133.9 MB.
-Total: 3.423200 ms (FindLiveObjects: 0.323900 ms CreateObjectMapping: 0.144900 ms MarkObjects: 2.862700 ms  DeleteObjects: 0.091100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  colorSpace: 1 -> 0
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/active-color-space: 03000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.059281 seconds.
+  path: Assets/ToolsPack1/HighQuality/IceAxe/Model/IceAxe.prefab
+  artifactKey: Guid(f83ae204500120148a98c0ef54de2641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToolsPack1/HighQuality/IceAxe/Model/IceAxe.prefab using Guid(f83ae204500120148a98c0ef54de2641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e2400d865f07a4919fbf882b1961f0') in 0.318921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.602609 seconds.
+  path: Assets/Alstra Infinite
+  artifactKey: Guid(f88eb48c9363e8948893f579dd06524d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite using Guid(f88eb48c9363e8948893f579dd06524d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146c8ab9c9f47bfe3300b64ca9c96ac4') in 0.002684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.738172 seconds.
+  path: Assets/Alstra Infinite/Tool Set - PolyPack
+  artifactKey: Guid(f496a9ccafcaf7745907ecfc7bc84531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Tool Set - PolyPack using Guid(f496a9ccafcaf7745907ecfc7bc84531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e53333406fdef5d914b04403277fc92') in 0.002285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.455398 seconds.
+  path: Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs
+  artifactKey: Guid(5d7afd997a23ea24aba032f389b75823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs using Guid(5d7afd997a23ea24aba032f389b75823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbe49de381e1ff93668a4e2e3f197f6') in 0.002357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074003 seconds.
+  path: Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/AxeV1.prefab
+  artifactKey: Guid(c8abccebf51185b4097c6c21f9537b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/AxeV1.prefab using Guid(c8abccebf51185b4097c6c21f9537b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9fe279c9151a3e3a3dce2c480eb910') in 0.021332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002799 seconds.
+  path: Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/HoeV1.prefab
+  artifactKey: Guid(4021f8cbbb8613842a1ab100926ddae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/HoeV1.prefab using Guid(4021f8cbbb8613842a1ab100926ddae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbea0559120191be5e9633ce0af8f21') in 0.016595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/ScytheV1.prefab
+  artifactKey: Guid(6d5c973482b67d04e8b5574a2dc815a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/ScytheV1.prefab using Guid(6d5c973482b67d04e8b5574a2dc815a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9951b91aa6d57930ea3350cb89ef77') in 0.017962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/SpadeV1.prefab
+  artifactKey: Guid(ebc7f9d4d8f21a145b5f8bcb031a5ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/SpadeV1.prefab using Guid(ebc7f9d4d8f21a145b5f8bcb031a5ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369ec266592282e458d947f4d8016b86') in 0.012919 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
