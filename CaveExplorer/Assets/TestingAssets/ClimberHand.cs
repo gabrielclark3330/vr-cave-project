@@ -1,10 +1,10 @@
 using UnityEngine;
-using Valve.VR;
+
 public class ClimberHand : MonoBehaviour
 {
-    public SteamVR_Input_Sources Hand;
     public int TouchedCount;
     public bool grabbing;
+    public Transform axe;
 
     void OnTriggerEnter(Collider other)
     {
@@ -19,5 +19,10 @@ public class ClimberHand : MonoBehaviour
         {
             TouchedCount--;
         }
+    }
+
+    void Update()
+    {
+        axe = gameObject.transform;
     }
 }
