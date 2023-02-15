@@ -6,7 +6,8 @@ public class mirrorMovement : MonoBehaviour
 {
 
     public Transform playerTransform;
-    public Transform playerHandTransform;
+    public Transform playerLHandTransform;
+    public Transform playerRHandTransform;
     private Vector3 pickaxeOrigin;
     private Vector3 playerOrigin;
 
