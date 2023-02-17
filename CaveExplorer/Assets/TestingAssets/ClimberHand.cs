@@ -25,6 +25,5 @@ public class ClimberHand : MonoBehaviour
 
     void Update()
     {
-        //axe = gameObject.transform;
     }
 }
