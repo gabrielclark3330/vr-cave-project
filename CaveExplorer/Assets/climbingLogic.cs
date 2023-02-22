@@ -98,6 +98,8 @@ namespace Valve.VR.InteractionSystem
             }
             if (teleportButtonDown)
             {
+                RightHand.grabbing = false;
+                LeftHand.grabbing = false;
                 RightAxe.SetActive(false);
                 LeftAxe.SetActive(false);
             }
